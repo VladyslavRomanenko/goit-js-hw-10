@@ -42,6 +42,7 @@ const coutriesSearch = event => {
       Notiflix.Notify.failure('Oops, there is no country with that name');
     } else if (value.length > 10) {
       listRef.innerHTML = '';
+      divInfoRef.innerHTML = '';
       Notiflix.Notify.info(
         'Too many matches found. Please enter a more specific name.'
       );
