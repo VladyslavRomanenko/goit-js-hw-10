@@ -18,3 +18,34 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.coutry-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-info {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body {
+  background-color: aliceblue;
+}
